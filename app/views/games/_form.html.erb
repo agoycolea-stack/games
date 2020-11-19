@@ -40,7 +40,7 @@
       <%= render 'rule_fields', f: rule_form %>
     <% end %>
     <div class="links">
-      <%= link_to_add_association raw('<span><i class="fa fa-plus"> Regla</i></span>'), form, :rules, class: "btn btn-success" %>
+      <%= link_to_add_association 'Add rule', form, :rules, class: "btn btn-success" %>
     </div>
   </div>
   <br>
@@ -51,7 +51,7 @@
       <%= render 'component_fields', f: component_form %>
     <% end %>
     <div class="links">
-      <%= link_to_add_association raw('<span><i class="fa fa-plus"> Componente</i></span>'), form, :components, class: "btn btn-success" %>
+      <%= link_to_add_association 'Component', form, :components, class: "btn btn-success" %>
     </div>
   </div>
   <br>
